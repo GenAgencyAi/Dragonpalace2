@@ -1075,7 +1075,7 @@ export const DateTimeExtension = {
 
       console.log(`Selected dateTime: ${dateTime}`)
 
-      // Send the dateTime as one payload in the required format
+      // Send the dateTie as one payload in the required format
       formContainer.querySelector('.submit').remove()
       window.voiceflow.chat.interact({
         type: 'complete',
